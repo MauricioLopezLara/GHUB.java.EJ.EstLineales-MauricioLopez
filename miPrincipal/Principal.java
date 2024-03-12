@@ -1,5 +1,5 @@
 package miPrincipal;
-public class ClienteMain{
+public class Principal{
     public static void main(String[] arg){
         //Crear una nueva pila de enteros
         Pila<Integer> pila = new Pila<Integer>();
