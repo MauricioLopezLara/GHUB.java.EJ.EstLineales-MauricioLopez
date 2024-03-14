@@ -1,8 +1,8 @@
 ./miTest/AppTest.java
+./miPrincipal/DemoDelimitadores.java
+./miPrincipal/DemoStack.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
-./miPrincipal/Nodo.java
 ./miPrincipal/Principal.java
-./miPrincipal/DemoStack.java
-./miPrincipal/DemoDelimitadores.java
+./miPrincipal/Nodo.java
 ./miPrincipal/DemoPila.java

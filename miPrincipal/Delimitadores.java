@@ -52,6 +52,8 @@ public class Delimitadores {
                            masElementosPorLeer = false;
                         }
                     }
+                    ///esta linea es nueva
+                    break;
                 }
                 case '*':
                    if(siguienteEsDiagonal(cadena,i)){
@@ -71,6 +73,8 @@ public class Delimitadores {
         return String.valueOf(ch);
     }
     private static boolean siguienteEsAsterisco(String cadena, int posicion){
+      System.out.println("Longitud de la cadena:"+cadena.length());
+      System.out.println("Posicion a evaluar "+posicion);
         char car = cadena.charAt(posicion);
         if(car=='*')
            return true;
@@ -78,6 +82,8 @@ public class Delimitadores {
            return false;
     }
     private static boolean siguienteEsDiagonal(String cadena, int posicion){
+        System.out.println("Longitud de la cadena:"+cadena.length());
+        System.out.println("Posicion a evaluar "+posicion);
         char car = cadena.charAt(posicion);
         if(car=='/')
            return true;
