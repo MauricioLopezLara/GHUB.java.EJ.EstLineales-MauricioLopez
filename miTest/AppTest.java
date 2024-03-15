@@ -24,7 +24,6 @@ class AppTest {
         System.out.println(resultado);
         assertTrue(resultado,"Debe ser verdadero");
 
-
     }
 
     @Test public void testEvaluacionFallida(){
