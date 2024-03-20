@@ -2,6 +2,7 @@
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoDelimitadores.java
 ./miPrincipal/Cola.java
+./miPrincipal/DemoQueue.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
