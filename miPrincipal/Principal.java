@@ -16,6 +16,7 @@ public class Principal {
             System.out.println(" 4) Expresion Infija-Prefija");
             System.out.println(" 5) Cola");
             System.out.println(" 6) Queue");
+            System.out.println(" 7) Tablas de Dispersion");
 
             System.out.println();
 
@@ -40,9 +41,11 @@ public class Principal {
                 case 6:
                    DemoQueue.menu();
                    break;
+                case 7:
+                   DemoTablaDispersion.menu();
                 case 0:
                     System.out.println("ADIOS!");
-                    consola.close();
+                    //consola.close();
                     break;
                 default:
                     System.out.println("Valor incorrecto, intente de nuevo!");
