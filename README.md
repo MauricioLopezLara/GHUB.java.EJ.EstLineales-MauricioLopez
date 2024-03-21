@@ -72,47 +72,7 @@ Esta estructura funciona de manera inversa a la pilas. Los elementos se añaden 
 2. Demostración de la Interface *Queue* de Java
 3. Problemas que se resuelven con Colas:
    * 3.1 Simulador del despliegue y aterrizaje de aviones
-   Simulación de Despegue y Aterrizaje de Aviones en Java
-1. Clase Vuelo:
-
-La clase Vuelo representará un vuelo individual. Deberá incluir los siguientes atributos:
-
-id: Identificador único del vuelo (tipo int)
-origen: Aeropuerto de origen (tipo String)
-destino: Aeropuerto de destino (tipo String)
-estado: Estado del vuelo (tipo String), podendo ser "EN ESPERA", "DESPEGANDO", "EN VUELO", "ATERRIZANDO", "ATERRIZADO"
-2. Interfaz Queue:
-
-La interfaz Queue definirá las operaciones básicas para gestionar una cola de vuelos. Deberá incluir los siguientes métodos:
-
-offer(Vuelo vuelo): Agrega un vuelo al final de la cola.
-poll(): Elimina y devuelve el primer vuelo de la cola.
-peek(): Devuelve el primer vuelo de la cola sin eliminarlo.
-isEmpty(): Devuelve true si la cola está vacía, false en caso contrario.
-3. Implementación de la Simulación:
-
-Para simular el despegue y aterrizaje de aviones, se pueden seguir estos pasos:
-
-Crear una cola de vuelos utilizando una implementación de la interfaz Queue, como ArrayDeque o LinkedList.
-Generar una lista de vuelos con información de origen, destino y estado inicial "EN ESPERA".
-Iniciar un hilo para la torre de control:
-El hilo de la torre de control debe:
-Leer el siguiente vuelo de la cola.
-Actualizar el estado del vuelo a "DESPEGANDO".
-Simular un tiempo de espera aleatorio para el despegue.
-Actualizar el estado del vuelo a "EN VUELO".
-Repetir los pasos anteriores para cada vuelo en la cola.
-Iniciar un hilo para cada aeropuerto:
-El hilo de cada aeropuerto debe:
-Esperar a que un vuelo tenga como destino ese aeropuerto.
-Actualizar el estado del vuelo a "ATERRIZANDO".
-Simular un tiempo de espera aleatorio para el aterrizaje.
-Actualizar el estado del vuelo a "ATERRIZADO".
-Eliminar el vuelo de la cola de vuelos.
    
-
-
-
 
 
 ## Diagrama de clase Cola
