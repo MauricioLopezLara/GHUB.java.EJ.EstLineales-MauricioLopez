@@ -4,7 +4,9 @@
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoQueue.java
 ./miPrincipal/Persona.java
+./miPrincipal/DemoEstCombinada.java
 ./miPrincipal/DemoStack.java
+./miPrincipal/Hashtable2.java
 ./miPrincipal/DemoTablaDispersion.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
