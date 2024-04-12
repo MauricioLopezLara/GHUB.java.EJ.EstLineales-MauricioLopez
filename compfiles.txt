@@ -7,9 +7,14 @@
 ./miPrincipal/DemoEstCombinada.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/Hashtable2.java
+./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoTablaDispersion.java
+./miPrincipal/UNombre.java
+./miPrincipal/TestVector.java
+./miPrincipal/DemoListaSimple.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Nodo.java
+./miPrincipal/Lista.java
 ./miPrincipal/DemoPila.java
