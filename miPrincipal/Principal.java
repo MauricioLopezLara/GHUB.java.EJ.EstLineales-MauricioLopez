@@ -20,6 +20,8 @@ public class Principal {
             System.out.println(" 8) Estructura Combinada");
             System.out.println(" 9) Lista simplemente enlazada");
             System.out.println("10) ArrayList y LinkedList");
+            System.out.println("11) ArrayList de Personas");
+            System.out.println("12) LinkedList Cuadrúpedos");
 
 
             System.out.println();
@@ -55,6 +57,12 @@ public class Principal {
                      break;
                 case 10:
                      DemoArrayListyLinkedList.menu();
+                     break;
+                case 11:
+                     DemoArrayListPersonas.menu();
+                     break;
+                case 12:
+                     DemoLinkedListCuadrupedos.menu();
                      break;
                 case 0:
                     System.out.println("ADIOS!");
