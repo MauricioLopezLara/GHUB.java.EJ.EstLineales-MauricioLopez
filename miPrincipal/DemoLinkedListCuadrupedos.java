@@ -14,7 +14,7 @@ public class DemoLinkedListCuadrupedos {
     public static void menu(){
         System.out.println("************************");
         System.out.println("       LINKEDLIST       ");
-        System.out.println("        PERSONAS        ");
+        System.out.println("       CUADRUPEDOS      ");
         System.out.println("************************");
         System.out.println();
         try{
@@ -35,7 +35,6 @@ public class DemoLinkedListCuadrupedos {
                 switch (cuadrupedo.getTipo()) {
                     case "León":
                         leonCount++;
-
                         break;
                     case "Gato":
                         gatoCount++;
@@ -47,10 +46,14 @@ public class DemoLinkedListCuadrupedos {
                        elefanteCount++;
                        break;
                        
-                
                 }
 
             }
+            System.out.println("Resumen:");
+            System.out.println("Leones:"+leonCount);
+            System.out.println("Gatos:"+gatoCount);
+            System.out.println("Perros:"+perroCount);
+            System.out.println("Elefantes"+elefanteCount);
 
         }catch (Exception e){
             e.printStackTrace();

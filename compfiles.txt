@@ -1,9 +1,11 @@
+./cuadrupedo/Cuadrupedo.java
 ./miTest/AppTest.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoDelimitadores.java
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoQueue.java
 ./miPrincipal/Persona.java
+./miPrincipal/DemoLinkedListCuadrupedos.java
 ./miPrincipal/DemoEstCombinada.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/Hashtable2.java
